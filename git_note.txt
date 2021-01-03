@@ -1,0 +1,46 @@
+第一次git提交练习
+
+git初始化
+git init
+
+克隆git仓库
+git clone http地址
+
+修改git用户名后提交
+git config --global user.name 'walkingwalkerXu'
+git config --global user.email "854060553@qq.com"
+
+提交修改到暂存区
+git add file_name
+
+提交修改到本地仓库
+git commit -m '描述'
+
+提交修改到远端
+git push
+
+查看配置
+git config --list
+
+当遇到The requested URL returned error:403 Forbidden while accessing 或
+git push时，需要修改.git/copnfig中的url，在https路径加上 用户名：密码@github
+
+
+查看文件状态
+git status
+
+
+Github Page 搭建网站
+
+访问
+https://用户名.github.io
+
+搭建步骤
+1.创建个人站点 -》 新建仓库（注：仓库名必须是[用户名.github.io]）
+2.在仓库下新建 index.html即可。
+
+Project pages 项目站点
+https://用户名.github.io/仓库名
+具体参见链接：https://www.bilibili.com/video/BV1Xx411m7kn?p=10
+第7分钟起
+
